@@ -37,9 +37,10 @@ elif x<y and y>z:
 else:
     print("z is greater")
 # program for compare three number user input
+# program for compare three number user input
 x=int(input("Enter the first no:"))
 y=int(input("Enter the second no:"))
-z=int(input("Enter the third no:"))
+z=int(input("Enter the third no:")) 
 if x>y and x>z:
     print("x is greater ")
 elif x<y and y>z:

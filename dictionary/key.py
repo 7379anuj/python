@@ -26,3 +26,19 @@ dict={
 }
 for item in dict:
     print(item)
+
+
+mydict ={
+    'name':'Arun',
+    'age':'15',
+    'address':{
+        'prement':'Rishikesh',
+        'current':'Delhi',
+    },
+    'vechile':['car','track','bike','cycle']
+
+}
+print(mydict["address"]["current"])
+print(mydict["vechile"][2])
+mydict["age"]=19
+print(mydict["age"])
